@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fav_movies/static/css/main.be58475f.css",
+    "main.js": "/fav_movies/static/js/main.3ef66b90.js",
+    "static/media/4wlebrac.png": "/fav_movies/static/media/4wlebrac.9113a1ce1f6fad8cf406.png",
+    "static/media/screenshot11.png": "/fav_movies/static/media/screenshot11.0ee6a39bec3a8225927b.png",
+    "static/media/mainLogo.jpeg": "/fav_movies/static/media/mainLogo.8ab1b7303c29a49c48ed.jpeg",
+    "index.html": "/fav_movies/index.html",
+    "main.be58475f.css.map": "/fav_movies/static/css/main.be58475f.css.map",
+    "main.3ef66b90.js.map": "/fav_movies/static/js/main.3ef66b90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be58475f.css",
+    "static/js/main.3ef66b90.js"
+  ]
+}
