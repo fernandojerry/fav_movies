@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import "../Assets/NavLogo.css"
 import Logo from "../Assets/images/mainLogo.jpeg";
 
@@ -9,15 +10,9 @@ function Header() {
             <img src={Logo} alt="" />
         </div>
         <ul className='pageOptions'>
-            <li>
-                <a href="/home">Home</a>
-            </li>
-            <li>
-                <a href="/movies">Movies</a>
-            </li>
-            <li>
-                 <a href="/blog">Blog</a>
-            </li>
+          <Link className='li' to="/">Home</Link>
+          <Link className='li' to="/movies">Movies</Link>
+          <Link className='li' to="/blog">Blog</Link>
       </ul>
       
     </div>

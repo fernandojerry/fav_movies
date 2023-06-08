@@ -7,7 +7,6 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    margin-top: 80px;
 }
 .socials {
     position: fixed;
@@ -32,6 +31,7 @@ ul {
     font-size: 10px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-right: auto;
 }
 
@@ -40,6 +40,7 @@ p{
 }
 p span.name {
     color: #A90F0F;
+    flex: 50%;
 }
 
 .search-icon {

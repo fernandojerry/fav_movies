@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import "../Assets/Home.css"
 import SearchPNG from "../Assets/images/4wlebrac.png"
 import Hero from "../Assets/images/screenshot11.png"
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -14,9 +15,9 @@ function Home() {
       <div className='banner'><Banner /></div>
       <div className=' search-section'>
         <div className='search-content'>
-            <a className='hero-btn1' href="/movies">
-               Exciting Movies
-            </a>
+
+          <Link className="hero-btn1" to="/movies">Exciting Movies</Link>
+            
             <h1>
               The Movie App For Your <br /> <span>
                 Favorite Movies
@@ -25,12 +26,10 @@ function Home() {
             <p>
               Look out for the top rated 20 Movies from our list of Categories. 
             </p>
-            <a className='hero-btn2' href="/movies">
-               See Movies
-            </a>
+            <Link className="hero-btn2" to="/movies">See Movies</Link>
           </div>
           <div className='search-image'>
-            <img src={Hero} alt="Hero-image" className='hero'/>
+            <img src={Hero} alt="Hero" className='hero'/>
           </div>
           
       </div>
@@ -62,12 +61,11 @@ function Home() {
             </p>
           </div>
           <div className='search-image'>
-            <img src="https://th.bing.com/th/id/OIP.cBcWa96x3sHldv2jKlpxNgHaFa?pid=ImgDet&rs=1" alt="Hero-image" className='hero'/>
+            <img src="https://th.bing.com/th/id/OIP.cBcWa96x3sHldv2jKlpxNgHaFa?pid=ImgDet&rs=1" alt="Hero" className='hero'/>
           </div>
         </div>
-        <li><a className='hero-btn1' href="/search">
-             Source Code
-            </a></li>
+        <Link className="hero-btn1" to="/search">Source Code</Link>
+        
     </div>
   )
 }
