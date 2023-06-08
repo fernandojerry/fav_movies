@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import Search from "./pages/Search"
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <div className="App">
           <Header logo="Fav Movies" />
         </div>
@@ -20,7 +20,7 @@ function App() {
           <Route path='/search' element={<Search />} />
         </Routes>
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;

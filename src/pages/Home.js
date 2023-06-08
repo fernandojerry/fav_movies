@@ -45,6 +45,7 @@ function Home() {
             <p>
               You can now search your favorite movies both old and new with our opimised search engine. There is no limitaion to Movies you can search.
             </p>
+            <Link className='hero-btn1' to="/search">Search favorite Movies</Link>
             <a className='hero-btn1' href="/search">
              Search Favorite Movies
             </a>
