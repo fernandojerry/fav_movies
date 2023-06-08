@@ -39,6 +39,8 @@ h1 span {
 }
 
 .home-container {
+    width: 100%;
+    margin: 0px auto;
     background-color: white;
     color: black;
     text-align: center;

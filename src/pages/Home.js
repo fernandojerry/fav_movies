@@ -46,9 +46,7 @@ function Home() {
               You can now search your favorite movies both old and new with our opimised search engine. There is no limitaion to Movies you can search.
             </p>
             <Link className='hero-btn1' to="/search">Search favorite Movies</Link>
-            <a className='hero-btn1' href="/search">
-             Search Favorite Movies
-            </a>
+            
           </div>
           
         </div>
@@ -65,7 +63,7 @@ function Home() {
             <img src="https://th.bing.com/th/id/OIP.cBcWa96x3sHldv2jKlpxNgHaFa?pid=ImgDet&rs=1" alt="Hero" className='hero'/>
           </div>
         </div>
-        <Link className="hero-btn1" to="/search">Source Code</Link>
+        <a href="https://github.com/fernandojerry/fav_movies" className="hero-btn2" target='_blank' rel='noreferrer'>Source Code</a>
         
     </div>
   )

@@ -1,5 +1,6 @@
 
 .logo img {
+  left: 20px;
   object-fit: contain;
   width: 60px;
   border-radius: 30px;

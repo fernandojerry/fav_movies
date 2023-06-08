@@ -9,9 +9,7 @@ import Search from "./pages/Search"
 function App() {
   return (
     <HashRouter>
-        <div className="App">
-          <Header logo="Fav Movies" />
-        </div>
+        <Header logo="Fav Movies" />
         <Routes>
           <Route path='/'
            element={<Home />} />
