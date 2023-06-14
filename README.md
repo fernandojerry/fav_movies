@@ -1,9 +1,11 @@
 # Fav Movies
+
 ![Web capture_12-6-2023_115655_localhost](https://github.com/fernandojerry/fav_movies/assets/110991183/c9e6d8a7-f327-4a19-9e32-1c267082e335)
+
 ## Introduction
 This project was built with [React](https://fernandojerry.github.io/fav_movies/) that utilizes the TMDB API to fetch and display movie data. The project was developd by me ([Nwadinobi Jerry])(https://www.linkedin.com/pulse/my-experience-building-movie-app-react-jerry-nwadinobi%3FtrackingId=60MrW6nWQL2fdnlcwAxGCA%253D%253D/?trackingId=60MrW6nWQL2fdnlcwAxGCA%3D%3D).
 
-## Introduction
+## Installation
 
 ### `cd fav_movies`
 Change into project directory
